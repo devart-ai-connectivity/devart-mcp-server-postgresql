@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11415.280
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devart.AI.McpServer", "Devart.AI.McpServer\Devart.AI.McpServer.csproj", "{51478E82-3D60-4659-BAB7-73D1E4254A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devart.AI.McpServer.Odbc", "Devart.AI.McpServer.Odbc\Devart.AI.McpServer.Odbc\Devart.AI.McpServer.Odbc.csproj", "{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devart.AI.McpServer.Odbc.PostgreSql", "Devart.AI.McpServer.Odbc\Devart.AI.McpServer.Odbc.PostgreSql\Devart.AI.McpServer.Odbc.PostgreSql.csproj", "{B13E631B-8661-AE4B-46D6-540DF977D71C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebugPostgreSql|Any CPU = DebugPostgreSql|Any CPU
+		DebugPostgreSql|x86 = DebugPostgreSql|x86
+		ReleasePostgreSql|Any CPU = ReleasePostgreSql|Any CPU
+		ReleasePostgreSql|x86 = ReleasePostgreSql|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.DebugPostgreSql|Any CPU.ActiveCfg = Debug|Any CPU
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.DebugPostgreSql|Any CPU.Build.0 = Debug|Any CPU
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.DebugPostgreSql|x86.ActiveCfg = Debug|x86
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.DebugPostgreSql|x86.Build.0 = Debug|x86
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.ReleasePostgreSql|Any CPU.ActiveCfg = Release|Any CPU
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.ReleasePostgreSql|Any CPU.Build.0 = Release|Any CPU
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.ReleasePostgreSql|x86.ActiveCfg = Release|x86
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.ReleasePostgreSql|x86.Build.0 = Release|x86
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.DebugPostgreSql|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.DebugPostgreSql|Any CPU.Build.0 = Debug|Any CPU
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.DebugPostgreSql|x86.ActiveCfg = Debug|x86
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.DebugPostgreSql|x86.Build.0 = Debug|x86
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.ReleasePostgreSql|Any CPU.ActiveCfg = Release|Any CPU
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.ReleasePostgreSql|Any CPU.Build.0 = Release|Any CPU
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.ReleasePostgreSql|x86.ActiveCfg = Release|x86
+		{2F9C1D26-5DB5-4734-BD4B-F9A77C1EB56D}.ReleasePostgreSql|x86.Build.0 = Release|x86
+		{B13E631B-8661-AE4B-46D6-540DF977D71C}.DebugPostgreSql|Any CPU.ActiveCfg = DebugPostgreSql|Any CPU
+		{B13E631B-8661-AE4B-46D6-540DF977D71C}.DebugPostgreSql|Any CPU.Build.0 = DebugPostgreSql|Any CPU
+		{B13E631B-8661-AE4B-46D6-540DF977D71C}.DebugPostgreSql|x86.ActiveCfg = DebugPostgreSql|x86
+		{B13E631B-8661-AE4B-46D6-540DF977D71C}.DebugPostgreSql|x86.Build.0 = DebugPostgreSql|x86
+		{B13E631B-8661-AE4B-46D6-540DF977D71C}.ReleasePostgreSql|Any CPU.ActiveCfg = ReleasePostgreSql|Any CPU
+		{B13E631B-8661-AE4B-46D6-540DF977D71C}.ReleasePostgreSql|Any CPU.Build.0 = ReleasePostgreSql|Any CPU
+		{B13E631B-8661-AE4B-46D6-540DF977D71C}.ReleasePostgreSql|x86.ActiveCfg = ReleasePostgreSql|x86
+		{B13E631B-8661-AE4B-46D6-540DF977D71C}.ReleasePostgreSql|x86.Build.0 = ReleasePostgreSql|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {456EC27D-1D60-470B-A266-44E164F5B06E}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Version\Version.projitems*{2f9c1d26-5db5-4734-bd4b-f9a77c1eb56d}*SharedItemsImports = 5
+		Version\Version.projitems*{51478e82-3d60-4659-bab7-73d1e4254a2a}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
